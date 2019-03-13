@@ -2,14 +2,13 @@
 
 As the next step in the interview process, we’d like you to complete a take home exercise.
 
-The task is to create a UI presenting the data in the provided JSON in a clear and intuitive manner that allows a user to see everything that is relevant to them, but without overwhelming them either.
+Let's assume `deployment.json` is the API response you want to present to the user of a cloud service. Every day, we work with data similar to what you'll find in the provided JSON file. It consists of an Elasticsearch deployment. A deployment is one or more products from the Elastic Stack configured to work together, each one in its own node. Each deployment has a number of properties such as: is the deployment healthy, does it have Kibana enabled, and so on.
 
-Let's assume `deployment.json` is the API response you want to present to the user of a cloud service.
-A deployment is one or more products from the Elastic Stack configured to work together, each one in its own node.
-Determine what information would be important for the user and display it in one or two pages.
+The task is to create a dashboard presenting the data in the provided JSON in a clear and intuitive manner that allows a user to see everything that is relevant to them, but without overwhelming them either.
+
 
 You can use this project to set up the environment quickly.
-Feel free to add what you feel is necessary but please don't spend more than 2 - 3 hours.
+We recommend spending 3-4 hours on this exercise, but if you need more time, please let us know.
 
 You can install the project with
 
