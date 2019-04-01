@@ -2,7 +2,7 @@
 
 As the next step in the interview process, we’d like you to complete a take home exercise.
 
-Let's assume `deployment.json` is the API response you want to present to the user of a cloud service. Every day, we work with data similar to what you'll find in the provided JSON file. It consists of an Elasticsearch deployment. A deployment is one or more products from the Elastic Stack configured to work together, each one in its own node. Each deployment has a number of properties such as: is the deployment healthy, does it have Kibana enabled, and so on.
+Let's assume `deployments.json` is the API response you want to present to the user of a cloud service. Every day, we work with data similar to what you'll find in the provided JSON file. It consists of a list of Elasticsearch deployments. A deployment is one or more products from the Elastic Stack configured to work together, each one in its own node. Each deployment has a number of properties such as: is the deployment healthy, is its configuration currently being updated, is it a premium deployment, does it have Kibana enabled, and so on.
 
 The task is to create a dashboard presenting the data in the provided JSON in a clear and intuitive manner that allows a user to see everything that is relevant to them, but without overwhelming them either.
 
